@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900; 1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*llamado a las utilities*/
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/funciones";
+
+/*llamado a los archivos base*/
+@import "./base/reset";
+@import "./base/tipografia";
+
+/*llamado a los layout*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-biografia";
+@import "./layout/main-trayectoria";
+@import "./layout/main.argentina";
+@import "./layout/main-contacto";
+
+/*llamado a los components*/
