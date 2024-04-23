@@ -1,0 +1,73 @@
+@media (min-width:768px) and (max-width:1023px){
+    header{
+        padding: 15px;
+        a{
+            font-size: map-get($letras, 4);
+            padding: 1px;
+            &:hover{
+                transform: none;
+            }
+        }
+        ul{
+            li{
+                a{
+                    font-size: map-get($letras, 2);
+                    padding: 2px;
+                    &:hover{
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        padding: 15px;
+        a{
+            font-size: map-get($letras, 4);
+            padding: 1px;
+            &:hover{
+                transform: none;
+            }
+        }
+        ul{
+            li{
+                a{
+                    font-size: map-get($letras, 2);
+                    padding: 2px;
+                    &:hover{
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+/*MAIN DE BIOGRAFIA*/
+.biografia{
+    gap: .3125rem;
+    grid-template-rows: 70px 600px;
+    padding: 1px;
+    h1{
+        padding: 5px;
+        font-size: map-get($letras, 5);
+    &::after{
+        display: none;
+    }
+    &::before{
+        display: none;
+    }
+    }
+    p{
+        width: 350px;
+        height: 550px;
+        padding: 10px;
+        border: none;
+        font-size: map-get($letras, 2);
+    }
+    img{
+        padding: 0px;
+        width: 350px;
+        height: 550px;
+        border: none;
+    }
+}
+}

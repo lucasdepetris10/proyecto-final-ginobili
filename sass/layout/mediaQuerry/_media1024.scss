@@ -1,0 +1,71 @@
+@media(max-width:1024px){
+    header{
+        padding: 15px;
+        height: 60px;
+        a{
+            font-size: map-get($letras, 6);
+            padding: 0px 10px;
+            &:hover{
+                transform: none;
+            }
+        }
+        ul{
+            li{
+                a{
+                    font-size: map-get($letras, 4);
+                    padding: 5px;
+                    &:hover{
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+    padding: 15px;
+    height: 60px;
+    a{
+        font-size: map-get($letras, 6);
+        padding: 0px 10px;
+        &:hover{
+            transform: none;
+        }
+    }
+    ul{
+        li{
+            a{
+                font-size: map-get($letras, 4);
+                padding: 5px;
+                &:hover{
+                    transform: none;
+                }
+            }
+        }
+    }
+}
+/*MAIN DE BIOGRAFIA*/
+.biografia{
+    h1{
+    &::after{
+    width: 230px;
+    right: 50px;
+        }
+    &::before{
+    width: 220px;
+    left: 80px;
+    }
+    }
+    p{
+        width: 400px;
+        height: 600px;
+        padding: 15px;
+        border: none;
+        font-size: map-get($letras, 3);
+    }
+    img{
+        width: 400px;
+        height: 600px;
+        border: none;
+    }
+}
+}
