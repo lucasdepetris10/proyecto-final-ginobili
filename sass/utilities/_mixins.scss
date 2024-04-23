@@ -4,3 +4,7 @@
     justify-content: $justify;
     align-items: $align;
 }
+@mixin self{
+    justify-self: center;
+    align-self: center;
+}
