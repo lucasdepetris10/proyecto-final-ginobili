@@ -12,3 +12,10 @@
     justify-content: center;
     align-content: center;
 }
+@mixin trayec{
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
