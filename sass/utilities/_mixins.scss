@@ -8,3 +8,7 @@
     justify-self: center;
     align-self: center;
 }
+@mixin content{
+    justify-content: center;
+    align-content: center;
+}
