@@ -48,14 +48,14 @@
     }
 }
 .trayectoria div:nth-child(2){ /*texto 1*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 2/3;
     grid-row: 2/3;
     grid-area: div2;
     width: 540px;
     height: 360px;
-    padding: 90px 50px;
+    padding: 60px;
     border: $border;
 }
 .trayectoria div:nth-child(3) img{ /*img 1*/
@@ -68,7 +68,7 @@
     border-radius: 20px;
 }
 .trayectoria div:nth-child(4){  /*texto 2*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 1/2;
     grid-row: 3/4;
@@ -76,7 +76,7 @@
     width: 540px;
     height: 360px;
     border: $border;
-    padding: 70px 50px;
+    padding: 50px;
 }
 .trayectoria div:nth-child(5) img{ /*img 2*/
     grid-column: 2/3;
@@ -88,7 +88,7 @@
     border-radius: 20px;
 }
 .trayectoria div:nth-child(6){ /*texto 3*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 2/3;
     grid-row: 4/5;
@@ -108,7 +108,7 @@
     border-radius: 20px;
 }
 .trayectoria div:nth-child(8){ /*texto 4*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 1/2;
     grid-row: 5/6;
@@ -116,7 +116,7 @@
     width: 540px;
     height: 420px;
     border: $border;
-    padding: 90px 50px;
+    padding: 50px;
 }
 .trayectoria div:nth-child(9) img{ /*img 4*/
     grid-column: 2/3;
@@ -128,7 +128,7 @@
     border-radius: 20px;
 }
 .trayectoria div:nth-child(10){ /*texto 5*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 2/3;
     grid-row: 6/7;
@@ -136,7 +136,7 @@
     width: 540px;
     height: 360px;
     border: $border;
-    padding: 40px 40px;
+    padding: 40px;
 }
 .trayectoria div:nth-child(11) img{ /*img 5*/
     grid-column: 1/2;
@@ -148,14 +148,14 @@
     border-radius: 20px;
 }
 .trayectoria div:nth-child(12){ /*texto 6*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 1/2;
     grid-row: 7/8;    
     grid-area: div11;
     width: 540px;
     height: 450px;
-    padding: 20px 40px;
+    padding: 40px;
     border: $border;
 }
 .trayectoria div:nth-child(13) img{ /*img 6*/
@@ -168,14 +168,14 @@
     border-radius: 20px;
 }
 .trayectoria div:nth-child(14){ /*texto 7*/
-    @include self;
+    @include content;
     @include trayec;
     grid-column: 2/3;
     grid-row: 8/9;
     grid-area: div14;
     width: 540px;
     height: 360px;
-    padding: 100px 50px;
+    padding: 50px;
     border: $border;
 }
 .trayectoria div:nth-child(15) img{ /*img 7*/

@@ -33,6 +33,75 @@
         @include self;
         font-size: map-get($letras, 7);
         padding: 20px;
-        font-weight: bold;
+        font-weight: 700;
+        background-color: map-get($colores, fondoTexto);
+        border-radius: 0px 20px 0px 20px;
+    }
+    div{
+        @include self;
     }
 }
+.argentina div:nth-child(2){ /*parrafo 1*/
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-area: texto1;
+    width: 540px;
+    height: 450px;
+    @include content;
+    @include argentina;
+    padding: 40px;
+    background-color: map-get($colores, fondoTexto);
+    border-radius: 60px 0px 60px 0px;
+}
+.argentina div:nth-child(3) img{ /*imagen 1*/
+    grid-column: 1/2;
+    grid-row: 2/3;
+    grid-area: img1;
+    @include self;
+    width: 540px;
+    height: 450px;
+    border-radius: 0px 60px 0px 60px;
+}
+.argentina div:nth-child(4){ /*parrafo 2*/
+    grid-column: 1/2;
+    grid-row: 3/4;
+    grid-area: texto2;
+    @include argentina;
+    @include content;
+    width: 540px;
+    height: 450px;
+    padding: 60px;
+    background-color: map-get($colores, fondoTexto);
+    border-radius: 60px 0px 60px 0px;
+}
+.argentina div:nth-child(5) img{ /*imagen 2*/
+    grid-column: 2/3;
+    grid-row: 3/4;
+    grid-area: img2;
+    @include self;
+    width: 540px;
+    height: 450px;
+    border-radius: 0px 60px 0px 60px;
+}
+.argentina div:nth-child(6){ /*parrafo 3*/
+    grid-column: 2/3;
+    grid-row: 4/5;
+    grid-area: texto3;
+    @include content;
+    @include argentina;
+    width: 540px;
+    height: 450px;
+    padding: 60px;
+    background-color: map-get($colores, fondoTexto);
+    border-radius: 60px 0px 60px 0px;
+}
+.argentina div:nth-child(7) img{ /*imagen 3*/
+    grid-column: 1/2;
+    grid-row: 4/5;
+    grid-area: img3;
+    @include content;
+    width: 540px;
+    height: 450px;
+    border-radius: 0px 60px 0px 60px;
+}
+
