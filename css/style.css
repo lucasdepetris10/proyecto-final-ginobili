@@ -619,6 +619,73 @@ footer ul li:hover {
     height: 600px;
     border: none;
   }
+  /*MAIN DE TRAYECTORIA*/
+  .trayectoria h1 {
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(2) { /*texto 1*/
+    width: 440px;
+    height: 360px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(3) img { /*img 1*/
+    width: 440px;
+    height: 360px;
+  }
+  .trayectoria div:nth-child(4) { /*texto 2*/
+    width: 440px;
+    height: 360px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(5) img { /*img 2*/
+    width: 440px;
+    height: 360px;
+  }
+  .trayectoria div:nth-child(6) { /*texto 3*/
+    width: 440px;
+    height: 360px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(7) img { /*img 3*/
+    width: 440px;
+    height: 360px;
+  }
+  .trayectoria div:nth-child(8) { /*texto 4*/
+    width: 440px;
+    height: 360px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(9) img { /*img 4*/
+    width: 340px;
+    height: 360px;
+  }
+  .trayectoria div:nth-child(10) { /*texto 5*/
+    width: 440px;
+    height: 360px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(11) img { /*img 5*/
+    width: 440px;
+    height: 360px;
+  }
+  .trayectoria div:nth-child(12) { /*texto 6*/
+    width: 440px;
+    height: 460px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(13) img { /*img 6*/
+    width: 440px;
+    height: 460px;
+  }
+  .trayectoria div:nth-child(14) { /*texto 7*/
+    width: 440px;
+    height: 320px;
+    font-size: 24px;
+  }
+  .trayectoria div:nth-child(15) img { /*img 7*/
+    width: 440px;
+    height: 320px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
