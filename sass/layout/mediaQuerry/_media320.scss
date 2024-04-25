@@ -218,4 +218,49 @@
         border: none;
     }
 }
+/*MAIN DE SELECCION ARGENTINA*/
+.argentina{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    row-gap: .9375rem;
+    h1{
+        font-size: map-get($letras, 4);
+        border-radius: 20px;
+        text-align: center;
+    }
+    div:nth-child(2){ /*parrafo 1*/
+        width: 95vw;
+        font-size: map-get($letras, 2);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    div:nth-child(3) img{ /*imagen 1*/
+        width: 95vw;
+        height: 300px;
+        border-radius: 20px;
+    }
+    div:nth-child(4){ /*parrafo 2*/
+        width: 95vw;
+        font-size: map-get($letras, 2);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    div:nth-child(5) img{ /*imagen 2*/
+        width: 95vw;
+        height: 300px;
+        border-radius: 20px;
+    }
+    div:nth-child(6){ /*parrafo 3*/
+        width: 95vw;
+        font-size: map-get($letras, 2);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    div:nth-child(7) img{ /*imagen 3*/
+        width: 95vw;
+        height: 300px;
+        border-radius: 20px;
+    }
+}
 }
