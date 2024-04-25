@@ -639,8 +639,41 @@ footer {
     width: 440px;
     height: 320px; }
   /*Main de seleccion*/
-  .argentina h1 {
-    font-size: 40px; } }
+  .argentina {
+    grid-template-rows: 70px repeat(3, 25rem);
+    gap: .625rem;
+    padding: .9375rem; }
+    .argentina h1 {
+      font-size: 26px; }
+    .argentina div:nth-child(2) {
+      /*parrafo 1*/
+      width: 490px;
+      height: 380px;
+      font-size: 20px;
+      padding: 50px; }
+    .argentina div:nth-child(3) img {
+      /*imagen 1*/
+      width: 490px;
+      height: 380px; }
+    .argentina div:nth-child(4) {
+      /*parrafo 2*/
+      width: 490px;
+      height: 380px;
+      font-size: 20px; }
+    .argentina div:nth-child(5) img {
+      /*imagen 2*/
+      width: 490px;
+      height: 380px; }
+    .argentina div:nth-child(6) {
+      /*parrafo 3*/
+      width: 490px;
+      height: 380px;
+      font-size: 20px;
+      padding: 50px; }
+    .argentina div:nth-child(7) img {
+      /*imagen 3*/
+      width: 490px;
+      height: 380px; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
