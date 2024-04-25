@@ -576,10 +576,9 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
     justify-self: center;
-    align-self: flex-start;
+    align-self: center;
     font-size: 26px;
-    text-align: center;
-    padding-top: 50px; }
+    text-align: center; }
   .contacto input {
     background-color: #b7c9f2; }
   .contacto label {
@@ -736,9 +735,52 @@ footer {
   .trayectoria div:nth-child(15) img {
     /*img 7*/
     width: 440px;
+<<<<<<< HEAD
     height: 320px;
   }
 }
+=======
+    height: 320px; }
+  /*Main de seleccion*/
+  .argentina {
+    grid-template-rows: 70px repeat(3, 25rem);
+    gap: .625rem;
+    padding: .9375rem; }
+    .argentina h1 {
+      font-size: 26px; }
+    .argentina div:nth-child(2) {
+      /*parrafo 1*/
+      width: 490px;
+      height: 380px;
+      font-size: 20px;
+      padding: 50px; }
+    .argentina div:nth-child(3) img {
+      /*imagen 1*/
+      width: 490px;
+      height: 380px; }
+    .argentina div:nth-child(4) {
+      /*parrafo 2*/
+      width: 490px;
+      height: 380px;
+      font-size: 20px; }
+    .argentina div:nth-child(5) img {
+      /*imagen 2*/
+      width: 490px;
+      height: 380px; }
+    .argentina div:nth-child(6) {
+      /*parrafo 3*/
+      width: 490px;
+      height: 380px;
+      font-size: 20px;
+      padding: 50px; }
+    .argentina div:nth-child(7) img {
+      /*imagen 3*/
+      width: 490px;
+      height: 380px; }
+  /*MAIN DE CONTACTO*/
+  /*no se modifica nada en 1024px*/ }
+
+>>>>>>> trabajo
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
     padding: 15px; }
@@ -901,7 +943,36 @@ footer {
     .argentina div:nth-child(7) img {
       /*imagen 3*/
       width: 370px;
-      height: 370px; } }
+      height: 370px; }
+  /*MAIN DE CONTACTO*/
+  .contacto h1 {
+    font-size: 30px; }
+  .contacto p {
+    font-size: 24px; }
+  .contacto label {
+    font-size: 20px; }
+  .contacto .form div:nth-child(2) input {
+    width: 300px;
+    height: 20px; }
+  .contacto .form div:nth-child(3) input {
+    width: 300px;
+    height: 20px; }
+  .contacto .form div:nth-child(4) input {
+    width: 300px;
+    height: 150px; }
+  .contacto .form div:nth-child(5) button {
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    background-color: #b7c9f2;
+    border-radius: 20px;
+    border: 2px solid black; }
+    .contacto .form div:nth-child(5) button:active {
+      background-color: rgba(0, 0, 0, 0.521);
+      color: white; }
+  .contacto .form div {
+    padding: 10px; } }
 
 @media (min-width: 200px) and (max-width: 767px) {
   /*----------header*/
