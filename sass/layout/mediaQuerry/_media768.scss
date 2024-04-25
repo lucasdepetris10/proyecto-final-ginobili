@@ -70,4 +70,79 @@
         border: none;
     }
 }
+/*MAIN DE TRAYECTORIA*/
+.trayectoria{
+    padding: 10px;
+    grid-template-rows: 60px repeat(5, 320px) 380px 300px;
+    div:nth-child(2){ /*texto 1*/
+        width: 350px;
+        height: 300px;
+        font-size: map-get($letras, 3);
+        padding: 40px;
+    }
+    div:nth-child(3) img{ /*img 1*/
+        width: 350px;
+        height: 300px;
+    }
+    div:nth-child(4){ /*texto 2*/
+        width: 350px;
+        height: 300px;
+        font-size: map-get($letras, 3);
+        padding: 40px;
+    }
+    div:nth-child(5) img{ /*img 2*/
+        width: 350px;
+        height: 300px;
+    }
+    div:nth-child(6){ /*texto 3*/
+        width: 350px;
+        height: 300px;
+        font-size: map-get($letras, 3);
+        padding: 40px;
+    }
+    div:nth-child(7) img{ /*img 3*/
+        width: 350px;
+        height: 300px;
+    }
+    div:nth-child(8){ /*texto 4*/
+        width: 350px;
+        height: 300px;
+        font-size: map-get($letras, 3);
+        padding: 40px;
+    }
+    div:nth-child(9) img{ /*img 4*/
+        width: 320px;
+        height: 300px;
+    }
+    div:nth-child(10){ /*texto 5*/
+        width: 350px;
+        height: 320px;
+        font-size: map-get($letras, 3);
+        padding: 40px;
+    }
+    div:nth-child(11) img{ /*img 5*/
+        width: 350px;
+        height: 320px;
+    }
+    div:nth-child(12){ /*texto 6*/
+        width: 350px;
+        height: 380px;
+        font-size: map-get($letras, 3);
+        padding: 20px;
+    }
+    div:nth-child(13) img{ /*img 6*/
+        width: 350px;
+        height: 380px;
+    }
+    div:nth-child(14){ /*texto 7*/
+        width: 350px;
+        height: 280px;
+        font-size: map-get($letras, 3);
+        padding: 40px;
+    }
+    div:nth-child(15) img{ /*img 7*/
+        width: 350px;
+        height: 280px;
+    }
+}
 }
