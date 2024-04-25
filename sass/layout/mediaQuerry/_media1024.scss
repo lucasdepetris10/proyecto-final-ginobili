@@ -137,4 +137,42 @@
         height: 320px;
     }
 }
+/*Main de seleccion*/
+.argentina{
+    grid-template-rows: 70px repeat(3, 25rem);
+    gap: .625rem;
+    padding: .9375rem;
+    h1{
+        font-size: map-get($letras, 6);
+    }
+    div:nth-child(2){ /*parrafo 1*/
+        width: 490px;
+        height: 380px;
+        font-size: map-get($letras, 3);
+        padding: 50px;
+    }
+    div:nth-child(3) img{ /*imagen 1*/
+        width: 490px;
+        height: 380px;
+    }
+    div:nth-child(4){ /*parrafo 2*/
+        width: 490px;
+        height: 380px;
+        font-size: map-get($letras, 3);
+    }
+    div:nth-child(5) img{ /*imagen 2*/
+        width: 490px;
+        height: 380px;
+    }
+    div:nth-child(6){ /*parrafo 3*/
+        width: 490px;
+        height: 380px;
+        font-size: map-get($letras, 3);
+        padding: 50px
+    }
+    div:nth-child(7) img{ /*imagen 3*/
+        width: 490px;
+        height: 380px;
+    }
+}
 }
