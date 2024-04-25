@@ -137,4 +137,10 @@
         height: 320px;
     }
 }
+/*Main de seleccion*/
+.argentina{
+    h1{
+        font-size: map-get($letras, 8);
+    }
+}
 }
