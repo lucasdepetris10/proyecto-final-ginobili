@@ -528,7 +528,7 @@ footer {
   height: 450px;
   border-radius: 0px 60px 0px 60px; }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   header {
     padding: 15px;
     height: 60px; }
@@ -727,6 +727,8 @@ footer {
   .trayectoria {
     padding: 10px;
     grid-template-rows: 60px repeat(5, 320px) 380px 300px; }
+    .trayectoria h1 {
+      font-size: 24px; }
     .trayectoria div:nth-child(2) {
       /*texto 1*/
       width: 350px;
@@ -796,7 +798,45 @@ footer {
     .trayectoria div:nth-child(15) img {
       /*img 7*/
       width: 350px;
-      height: 280px; } }
+      height: 280px; }
+  .argentina {
+    grid-template-rows: 60px repeat(3, 23.75rem);
+    gap: .625rem; }
+    .argentina h1 {
+      font-size: 24px; }
+    .argentina div:nth-child(2) {
+      /*parrafo 1*/
+      width: 370px;
+      height: 370px;
+      font-size: 18px;
+      padding: 30px;
+      font-weight: 500; }
+    .argentina div:nth-child(3) img {
+      /*imagen 1*/
+      width: 370px;
+      height: 370px; }
+    .argentina div:nth-child(4) {
+      /*parrafo 2*/
+      width: 370px;
+      height: 370px;
+      font-size: 18px;
+      padding: 30px;
+      font-weight: 500; }
+    .argentina div:nth-child(5) img {
+      /*imagen 2*/
+      width: 370px;
+      height: 370px; }
+    .argentina div:nth-child(6) {
+      /*parrafo 3*/
+      width: 370px;
+      height: 370px;
+      font-size: 18px;
+      padding: 30px;
+      font-weight: 500; }
+    .argentina div:nth-child(7) img {
+      /*imagen 3*/
+      width: 370px;
+      height: 370px; } }
 
 @media (min-width: 200px) and (max-width: 767px) {
   /*----------header*/

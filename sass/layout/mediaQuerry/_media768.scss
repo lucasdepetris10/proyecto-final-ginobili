@@ -74,6 +74,9 @@
 .trayectoria{
     padding: 10px;
     grid-template-rows: 60px repeat(5, 320px) 380px 300px;
+    h1{
+        font-size: map-get($letras, 5);
+    }
     div:nth-child(2){ /*texto 1*/
         width: 350px;
         height: 300px;
@@ -143,6 +146,46 @@
     div:nth-child(15) img{ /*img 7*/
         width: 350px;
         height: 280px;
+    }
+}
+.argentina{
+    grid-template-rows: 60px repeat(3, 23.75rem);
+    gap: .625rem;
+    h1{
+        font-size: map-get($letras, 5);
+    }
+    div:nth-child(2){ /*parrafo 1*/
+        width: 370px;
+        height: 370px;
+        font-size: map-get($letras, 2);
+        padding: 30px;
+        font-weight: 500;
+    }
+    div:nth-child(3) img{ /*imagen 1*/
+        width: 370px;
+        height: 370px;
+    }
+    div:nth-child(4){ /*parrafo 2*/
+        width: 370px;
+        height: 370px;
+        font-size: map-get($letras, 2);
+        padding: 30px;
+        font-weight: 500;
+    }
+    div:nth-child(5) img{ /*imagen 2*/
+        width: 370px;
+        height: 370px;
+    }
+    div:nth-child(6){ /*parrafo 3*/
+        width: 370px;
+        height: 370px;
+        font-size: map-get($letras, 2);
+        padding: 30px;
+        font-weight: 500;
+    }
+    div:nth-child(7) img{ /*imagen 3*/
+        width: 370px;
+        height: 370px;
     }
 }
 }
