@@ -263,4 +263,47 @@
         border-radius: 20px;
     }
 }
+/*MAIN CONTACTO*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 800px;
+    gap: .625rem;
+    h1{
+        font-size: map-get($letras, 5);
+        @include self;
+    }
+    p{
+        font-size: map-get($letras, 4);
+    }
+    label{
+        font-size: map-get($letras, 2);
+    }
+    .form div:nth-child(2) input{
+        width: 80vw;
+        height: 30px;
+    }
+    .form div:nth-child(3) input{
+        width: 80vw;
+        height: 30px;
+    }
+    .form div:nth-child(4) input{
+        width: 80vw;
+        height: 190px;
+    }
+    }
+    .form div:nth-child(5) button{
+        width: 80px;
+        height: 30px;
+        font-size: map-get($letras, 2);
+        color: black;
+        background-color: #b7c9f2;
+        border-radius: 20px;
+        border: $border;
+        &:active{
+            background-color: rgba(0, 0, 0, 0.521);
+            color: white;
+        }
+    }
 }

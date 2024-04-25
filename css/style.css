@@ -570,7 +570,12 @@ footer {
     font-size: 26px;
     text-align: center; }
   .contacto input {
-    background-color: #b7c9f2; }
+    background-color: #b7c9f2;
+    border-radius: 10px;
+    border: 2px solid black; }
+    .contacto input::placeholder {
+      color: black;
+      text-align: center; }
   .contacto label {
     font-size: 22px; }
   .contacto .form {
@@ -582,26 +587,23 @@ footer {
   .contacto .form div:nth-child(2) input {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-top: 20px;
     font-size: 16px;
     width: 400px;
-    height: 30px; }
+    height: 40px; }
   .contacto .form div:nth-child(3) input {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-top: 20px;
     font-size: 16px;
     width: 400px;
-    height: 30px; }
+    height: 40px; }
   .contacto .form div:nth-child(4) input {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 100px;
-    padding-top: 20px;
+    height: 140px;
     font-size: 16px; }
+    .contacto .form div:nth-child(4) input::placeholder {
+      text-align: center; }
   .contacto .form div:nth-child(5) button {
     width: 100px;
     height: 40px;
@@ -1196,6 +1198,41 @@ footer {
       /*imagen 3*/
       width: 95vw;
       height: 300px;
-      border-radius: 20px; } }
+      border-radius: 20px; }
+  /*MAIN CONTACTO*/
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 800px;
+    gap: .625rem; }
+    .contacto h1 {
+      font-size: 24px;
+      justify-self: center;
+      align-self: center; }
+    .contacto p {
+      font-size: 22px; }
+    .contacto label {
+      font-size: 18px; }
+    .contacto .form div:nth-child(2) input {
+      width: 80vw;
+      height: 30px; }
+    .contacto .form div:nth-child(3) input {
+      width: 80vw;
+      height: 30px; }
+    .contacto .form div:nth-child(4) input {
+      width: 80vw;
+      height: 190px; }
+  .form div:nth-child(5) button {
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    background-color: #b7c9f2;
+    border-radius: 20px;
+    border: 2px solid black; }
+    .form div:nth-child(5) button:active {
+      background-color: rgba(0, 0, 0, 0.521);
+      color: white; } }
 
 /*llamado a los components*/

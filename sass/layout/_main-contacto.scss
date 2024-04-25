@@ -45,6 +45,12 @@
     }
     input{
         background-color: map-get($colores, fondoPrincipal);
+        border-radius: 10px;
+        border: $border;
+        &::placeholder{
+            color: black;
+            text-align: center;
+        }
     }
     label{
         font-size: map-get($letras, 4);
@@ -58,28 +64,26 @@
     .form div:nth-child(2) input{
         display: flex;
         flex-direction: column;
-        padding-bottom: 20px;
-        padding-top: 20px;
         font-size: map-get($letras, 1);
         width: 400px;
-        height: 30px;
+        height: 40px;
     }
     .form div:nth-child(3) input{
         display: flex;
         flex-direction: column;
-        padding-bottom: 20px;
-        padding-top: 20px;
         font-size: map-get($letras, 1);
         width: 400px;
-        height: 30px;
+        height: 40px;
     }
     .form div:nth-child(4) input{
         display: flex;
         flex-direction: column;
         width: 400px;
-        height: 100px;
-        padding-top: 20px;
+        height: 140px;
         font-size: map-get($letras, 1);
+        &::placeholder{
+            text-align: center;
+        }
     }
     .form div:nth-child(5) button{
         width: 100px;
