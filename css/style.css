@@ -799,6 +799,7 @@ footer {
       /*img 7*/
       width: 350px;
       height: 280px; }
+  /*MAIN DE ARGENTINA*/
   .argentina {
     grid-template-rows: 60px repeat(3, 23.75rem);
     gap: .625rem; }
@@ -902,6 +903,7 @@ footer {
     right: 0;
     bottom: 0;
     z-index: -10; }
+  /*main de biografia*/
   .biografia {
     display: flex;
     flex-direction: column;
@@ -939,6 +941,99 @@ footer {
       height: 100vh;
       width: 100vw;
       font-size: 16px;
-      padding: 20px; } }
+      padding: 20px; }
+  /*main de trayectoria*/
+  .trayectoria {
+    display: flex;
+    flex-direction: column;
+    padding: 5px; }
+    .trayectoria h1 {
+      font-size: 20px;
+      border: none;
+      text-align: center; }
+    .trayectoria div:nth-child(2) {
+      /*texto 1*/
+      width: 95vw;
+      height: 200px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(3) img {
+      /*img 1*/
+      width: 95vw;
+      height: 300px;
+      border: none; }
+    .trayectoria div:nth-child(4) {
+      /*texto 2*/
+      width: 95vw;
+      height: 220px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(5) img {
+      /*img 2*/
+      width: 95vw;
+      height: 300px;
+      border: none; }
+    .trayectoria div:nth-child(6) {
+      /*texto 3*/
+      width: 95vw;
+      height: 240px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(7) img {
+      /*img 3*/
+      width: 95vw;
+      height: 300px;
+      border: none; }
+    .trayectoria div:nth-child(8) {
+      /*texto 4*/
+      width: 95vw;
+      height: 240px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(9) img {
+      /*img 4*/
+      width: 95vw;
+      height: 300px;
+      border: none; }
+    .trayectoria div:nth-child(10) {
+      /*texto 5*/
+      width: 95vw;
+      height: 310px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(11) img {
+      /*img 5*/
+      width: 95vw;
+      height: 300px;
+      border: none; }
+    .trayectoria div:nth-child(12) {
+      /*texto 6*/
+      width: 95vw;
+      height: 400px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(13) img {
+      /*img 6*/
+      width: 95vw;
+      height: 400px;
+      border: none; }
+    .trayectoria div:nth-child(14) {
+      /*texto 7*/
+      width: 95vw;
+      height: 200px;
+      font-size: 18px;
+      padding: 30px;
+      border: none; }
+    .trayectoria div:nth-child(15) img {
+      /*img 7*/
+      width: 95vw;
+      height: 250px;
+      border: none; } }
 
 /*llamado a los components*/
