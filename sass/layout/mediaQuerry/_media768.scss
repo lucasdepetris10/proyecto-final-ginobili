@@ -189,4 +189,44 @@
         height: 370px;
     }
 }
+/*MAIN DE CONTACTO*/
+.contacto{
+    h1{
+        font-size: map-get($letras, 7);
+    }
+    p{
+        font-size: map-get($letras, 5);
+    }
+    label{
+        font-size: map-get($letras, 3);
+    }
+    .form div:nth-child(2) input{
+        width: 300px;
+        height: 20px;
+    }
+    .form div:nth-child(3) input{
+        width: 300px;
+        height: 20px;
+    }
+    .form div:nth-child(4) input{
+        width: 300px;
+        height: 150px;
+    }
+    .form div:nth-child(5) button{
+        width: 80px;
+        height: 30px;
+        font-size: map-get($letras, 2);
+        color: black;
+        background-color: #b7c9f2;
+        border-radius: 20px;
+        border: $border;
+        &:active{
+            background-color: rgba(0, 0, 0, 0.521);
+            color: white;
+        }
+    }
+    .form div{
+        padding: 10px;
+    }
+}
 }
