@@ -83,7 +83,7 @@ footer {
   height: 100vh; }
   .container-fluid::after {
     content: " ";
-    background-image: url(../assets/Captura.JPG);
+    background-image: url(../assets/fondos/Captura.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -112,7 +112,7 @@ footer {
   .biografia::after {
     /*imagen de fondo*/
     content: " ";
-    background-image: url(../assets/fondocontacto.jpg);
+    background-image: url(../assets/fondos/fondocontacto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -192,7 +192,7 @@ footer {
   .trayectoria::after {
     /*imagen de fondo*/
     content: " ";
-    background-image: url(../assets/manu-fondo2.jpg);
+    background-image: url(../assets/fondos/manu-fondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -424,7 +424,7 @@ footer {
   .argentina::after {
     /*imagen de fondo*/
     content: " ";
-    background-image: url(../assets/fondocontacto.jpg);
+    background-image: url(../assets/fondos/fondocontacto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -551,7 +551,7 @@ footer {
   .contacto::after {
     /*imagen de fondo*/
     content: " ";
-    background-image: url(../assets/manu-fondo2.jpg);
+    background-image: url(../assets/fondos/manu-fondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1028,7 +1028,7 @@ footer {
     font-size: 30px; }
   .container-fluid::after {
     content: " ";
-    background-image: url(../assets/campeonspurs.jpg);
+    background-image: url(../assets/img_trayectoria/campeonspurs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -1051,7 +1051,7 @@ footer {
     .biografia::after {
       /*imagen de fondo*/
       content: " ";
-      background-image: url(../assets/imagenbiografia.jpg);
+      background-image: url(../assets/img_biografia/imagenbiografia.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
