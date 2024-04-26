@@ -68,7 +68,7 @@
     }
     .container-fluid::after{
         content: " ";
-        background-image: url(../assets/campeonspurs.jpg);
+        background-image: url(../assets/img_trayectoria/campeonspurs.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -88,7 +88,7 @@
         gap: 0rem;
         &::after{ /*imagen de fondo*/
             content: " ";
-            background-image: url(../assets/imagenbiografia.jpg);
+            background-image: url(../assets/img_biografia/imagenbiografia.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: top;

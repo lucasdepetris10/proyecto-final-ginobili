@@ -13,7 +13,7 @@
     position: relative;
     &::after{ /*imagen de fondo*/
         content: " ";
-        background-image: url(../assets/fondocontacto.jpg);
+        background-image: url(../assets/fondos/fondocontacto.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
