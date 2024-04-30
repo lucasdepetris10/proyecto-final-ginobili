@@ -2,7 +2,7 @@ footer{
     @include flex (row, space-between, center);
     background-color: map-get($colores, fondoPrincipal);
     padding: 20px;
-    height: 70px;
+    height: 69px;
     border: 1px solid black;
     a{
         text-decoration: none;
